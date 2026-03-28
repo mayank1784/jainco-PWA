@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { getProductsByCategory, getCategoryById, Product } from "@/lib/api";
 
+export const runtime = 'edge';
+
 export default function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const router = useRouter();
   const { slug } = use(params);

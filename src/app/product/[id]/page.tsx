@@ -6,6 +6,8 @@ import { getProductById, getProductVariations, getProductsByCategory, Product, P
 import { useCartStore } from "@/store/cartStore";
 import { generateProductWhatsAppLink } from "@/lib/whatsapp";
 
+export const runtime = 'edge';
+
 export default function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const router = useRouter();
   const { id } = use(params);

@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.jaincodecor.app",
+        "sha256_cert_fingerprints": ["05:34:70:B6:C8:72:5F:1C:0A:84:D0:38:E0:DB:CF:F3:8F:46:7F:14:D3:31:6D:91:58:C2:A3:72:A1:9F:BE:64"]
+      }
+    }]

@@ -1,8 +1,11 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.jaincodecor.app",
-        "sha256_cert_fingerprints": ["05:34:70:B6:C8:72:5F:1C:0A:84:D0:38:E0:DB:CF:F3:8F:46:7F:14:D3:31:6D:91:58:C2:A3:72:A1:9F:BE:64"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jaincodecor.app",
+      "sha256_cert_fingerprints":
+        ["83:7E:96:14:76:E6:5D:95:12:89:03:EF:E7:C2:72:EF:5D:F8:0F:F9:72:EB:BC:D9:AE:78:CA:93:B3:90:B3:C3"]
+    }
+  }
+]
